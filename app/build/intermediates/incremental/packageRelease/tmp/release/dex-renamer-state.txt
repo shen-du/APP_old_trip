@@ -1,0 +1,7 @@
+#Thu Mar 19 02:15:42 GMT+08:00 2020
+base.0=E\:\\working_project\\APP\\shendu\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=E\:\\working_project\\APP\\shendu\\app\\build\\intermediates\\dex\\release\\out\\classes2.dex

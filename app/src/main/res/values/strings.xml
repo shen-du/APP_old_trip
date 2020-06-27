@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">老人防摔检测</string>
+    <string name="bt1">登陆</string>
+    <string name="imput_phone">请输入手机号</string>
+    <string name="hint_imput">请输入11位手机号</string>
+    <string name="call_phone">拨打号码</string>
+    <string name="send_sms">请输入短信内容</string>
+    <string name="bt_send_sms">发送短信</string>
+    <string name="read">读取</string>
+    <string name="write">写入</string>
+    <string name="imput_password">请输入密码</string>
+    <string name="imput_account">请输入账号</string>
+    <string name="map_login_url">http://192.168.0.103:8081/shendu/LoginServlet</string>
+    <string name="onenet_login_url">https://cloud.alientek.com/api</string>
+    <string name="yuanziyun">43330077276563235692</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </com.amap.api.maps.MapView>
+
+    <Button
+        android:id="@+id/bt_locat"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:onClick="PeiQiLocatedUpdate"
+        android:text="老人"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/nightmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_locat"
+        android:layout_marginTop="0dp"
+        android:text="夜间模式" />
+
+    <TextView
+        android:id="@+id/trip_information"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@+id/bt_clearn"
+        android:layout_toLeftOf="@+id/bt_clearn"
+        android:layout_toEndOf="@+id/bt_locat"
+        android:layout_toRightOf="@+id/bt_locat"
+        android:background="#FF9800"
+        android:text="hhh"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bt_clearn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:onClick="clearn_informaction"
+        android:text="清除"
+        android:textSize="14sp" />
+
+</RelativeLayout>
